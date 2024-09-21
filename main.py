@@ -17,7 +17,7 @@ def rotate_image():
 def flip_horizontal():
     global current_matrix
     if current_matrix is not None:
-        # هنا يجب إضافة الكود للكس الصورة أفقيًا
+        # هنا يجب إضافة الكود لعكس الصورة أفقيًا
         draw_matrix(current_matrix, "Image flipped horizontally")
 
 def flip_vertical():
