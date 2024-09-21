@@ -7,36 +7,37 @@ import numpy as np
 current_matrix = None # متغير لتخزين المصفوفة الأصلية
 matrix_size = 30
 
-# دوال العمليات
+# دوال المطلوبة
 def rotate_image():
     global current_matrix
     if current_matrix is not None:
-
+        # هنا يجب إضافة الكود لتدوير الصورة بزاوية 90 درجة
         draw_matrix(current_matrix, "Image rotated 90°")
 
 def flip_horizontal():
     global current_matrix
     if current_matrix is not None:
-      
+        # هنا يجب إضافة الكود للكس الصورة أفقيًا
         draw_matrix(current_matrix, "Image flipped horizontally")
 
 def flip_vertical():
     global current_matrix
     if current_matrix is not None:
+        # هنا يجب إضافة الكود لعكس الصورة عموديًا
         draw_matrix(current_matrix, "Image flipped vertically")
 
 def convert_to_bw(threshold=128):
     global current_matrix
     if current_matrix is not None:
-
+        # هنا يجب إضافة الكود لتحويل الصورة إلى أبيض وأسود
         draw_matrix(current_matrix, f"Converted to black & white with threshold {threshold}")
 
 def apply_blur():
     global current_matrix
     if current_matrix is not None:
-
+        # هنا يجب إضافة الكود لتطبيق فلتر التمويه (Blur)
         draw_matrix(current_matrix, "Blur filter applied")
-        
+
 #__________________________________________________________________________________________________________________________
 #__________________________________________________________________________________________________________________________
 # فتح الصورة
