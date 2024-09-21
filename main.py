@@ -5,7 +5,7 @@ import numpy as np
 
 
 current_matrix = None # متغير لتخزين المصفوفة الأصلية
-matrix_size = 30
+matrix_size = 60
 
 # دوال المطلوبة
 def rotate_image():
